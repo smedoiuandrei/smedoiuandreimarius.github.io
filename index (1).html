@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Andrei Marius — Portfolio 3D</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loading">
+  <h1>ANDREI.M</h1>
+  <p>Initializing 3D Portfolio...</p>
+</div>
+
+<div id="hud">
+  <div class="name">ANDREI.M</div>
+  <div class="role">Computer Engineering @ UniTN</div>
+  <div class="hint">
+    WASD / Arrow Keys — move<br>
+    Joystick (mobile) — move<br>
+    Walk into panels to explore
+  </div>
+</div>
+
+<div id="info-panel">
+  <h2 id="panel-title">INFO</h2>
+  <div id="panel-content"></div>
+</div>
+
+<div id="zone-label"></div>
+
+<div id="joystick-zone">
+  <div id="joystick-base"></div>
+  <div id="joystick-stick"></div>
+</div>
+
+<div id="minimap"><canvas id="mm-canvas"></canvas></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
